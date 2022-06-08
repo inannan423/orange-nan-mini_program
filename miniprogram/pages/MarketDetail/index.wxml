@@ -1,0 +1,12 @@
+<image class="bigpic" src="../../images/list/aa.png" />
+<view class="return" bindtap="goback" style="height: {{ barHeight }} px;width:{{ barHeight }} px; margin-top:{{barTop+6}}px">
+<image class="picx" src="../../images/list/back.png"/>
+</view>
+<view class="container">
+  <view class="form-group cell">
+    <view class="form-cell">
+      <view class="form-cell_title">{{todo.title}}</view>
+      <view class="form-cell_desc">{{todo.desc}}</view>
+    </view>
+  </view>
+</view>

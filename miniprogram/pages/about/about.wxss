@@ -1,0 +1,31 @@
+/* pages/about/about.wxss */
+.picx{
+    margin-left: 40rpx;
+    height: 80rpx;
+    width: 80rpx;
+  }
+  .bigpic{
+    height: 600rpx;
+    width: 800rpx;
+    position:fixed;
+    z-index: -1;
+    top: -260rpx;
+    left: -200rpx;
+  }
+  .bd{
+      border-radius: 30rpx;
+      margin-left: 20rpx;
+      margin-right: 20rpx;
+      width: 90%;
+      opacity: 0.7;
+  }
+  .page__bd{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .ft{
+    position: absolute;
+    bottom: 30rpx;
+    left: 80rpx;
+  }

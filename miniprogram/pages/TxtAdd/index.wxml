@@ -1,0 +1,41 @@
+<wxs module="util" src="../util.wxs" />
+<image class="bigpic" src="../../images/list/aa.png" />
+<view class="return" bindtap="goback" style="height: {{ barHeight }} px;width:{{ barHeight }} px; margin-top:{{barTop+6}}px">
+<image class="picx" src="../../images/list/back.png"/>
+</view>
+<view class="container">
+  <view class="form-group fg">
+    <picker mode="date" header-text="选择时间"  value="{{date}}" bindchange="bindDateChange">
+    <view class="form-cell cl">
+      <view class="form-cell_title">点击选择发生日期</view>
+      <view class="form-cell_inputdd">{{date}}
+      </view> 
+      
+    </view>
+    </picker>
+    <view class="form-cell">
+      <view class="form-cell_title">事件标题</view>
+      <input class="form-cell_input" placeholder="给这件事取一个标题（八个字以内）" placeholder-class="form-cell_title-placeholder"
+        bindinput="onTitleInput" value="{{head}}" />
+    </view>
+    <view class="form-cell">
+      <view class="form-cell_title">事情详情</view>
+      <textarea class="form-cell_input" placeholder="这一天发生了什么呢? (200字以内)" placeholder-class="form-cell_title-placeholder"
+        bindinput="onDescInput" value="{{desc}}" />
+    </view>
+  </view>
+
+  <view class="form-group" bindtap="uploadPhoto">
+    <view class="form-cell">
+      <view class="form-cell_title">上传图片</view>
+    </view>
+    <image wx:if="{{imgPath}}" src="{{imgPath}}" style="height: 300rpx;width: 300rpx; border-radius: 20rpx;" mode="aspectFill"> 
+  
+</image>
+  </view>
+  
+  <view class="footer">
+    <view class="reset" bindtap="resetMission">重置</view>
+    <view class="save" bindtap="saveMission">保存</view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+.pxs{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+}
+.picx{
+    margin-left: 40rpx;
+    height: 80rpx;
+    width: 80rpx;
+    z-index: 100;
+  }

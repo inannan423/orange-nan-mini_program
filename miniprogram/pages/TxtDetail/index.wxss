@@ -1,0 +1,66 @@
+.container{
+  margin-top: 50rpx;
+}
+.cell{
+  opacity: 0.8;
+}
+
+.form-cell_title {
+
+  margin-bottom: 10px;
+  font-size: medium;
+}
+.form-cell_head {
+  margin-bottom: 5px;
+  font-size: 40rpx;
+}
+
+/*分割线样式*/
+.divLine{
+  background: #fcf4ff;
+  width: 100%;
+  height: 5rpx;
+  
+ }
+.form-cell_desc {
+  font-size: medium;
+  color: rgb(46, 44, 44);
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  border-top: lightgray solid 1px;
+}
+
+.footer view {
+  width: 50%;
+  height: 100%;
+  padding-top: 2vh;
+  text-align: center;
+}
+
+.list {
+  background: white;
+}
+
+.edit {
+  color: white;
+  background: #353535;
+}
+.picx{
+  margin-left: 40rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.bigpic{
+  height: 600rpx;
+  width: 800rpx;
+  position:fixed;
+  z-index: -1;
+  top: -260rpx;
+  left: -200rpx;
+}

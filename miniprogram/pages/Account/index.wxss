@@ -1,0 +1,37 @@
+.slide {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.form-cell {
+  padding: 0;
+}
+.cell {
+  background-color: #f5e9f3;
+  padding: 0;
+  width: 90%;
+  border-radius: 30rpx;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  color: black;
+}
+.cell1 {
+  background-color: #fefaff;
+  padding: 0;
+  width: 90%;
+  border-radius: 30rpx;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  color: black;
+}
+.info_title {
+  font-size: 18px;
+}
+
+.info_subtitle{
+  font-size: 18px;
+}

@@ -1,0 +1,73 @@
+<!--pages/about/about.wxml-->
+
+<image class="bigpic" src="../../images/list/aa.png" />
+<view class="return" bindtap="goback" style="height: {{ barHeight }} px;width:{{ barHeight }} px; margin-top:{{barTop+6}}px">
+  <image class="picx" src="../../images/list/back.png" />
+</view>
+
+<view class="page__bd">
+
+
+  <view class="weui-panel weui-panel_access bd">
+
+    <view class="weui-panel__hd">更新日志</view>
+    <view class="weui-panel__bd">
+      <view class="weui-media-box weui-media-box_text">
+
+        <view class="weui-media-box__title weui-media-box__title_in-text">2022.5.5 V1.1.0</view>
+
+        <view class="weui-media-box__desc">
+         <li>1.允许记事本上传图片<br/> </li> 
+         <li>2.使用云函数方法，单次查询突破100条<br/> </li>
+         <li>3.为任务和商品添加时间<br/></li>
+          </view>
+
+      </view>
+      <view class="weui-media-box weui-media-box_text">
+
+        <view class="weui-media-box__title weui-media-box__title_in-text">2022.5.4 V1.0.1</view>
+
+        <view class="weui-media-box__desc">
+          添加记事本模块</view>
+
+      </view>
+
+    </view>
+
+    <view class="weui-panel__bd">
+
+      <view class="weui-media-box weui-media-box_text">
+
+        <view class="weui-media-box__title weui-media-box__title_in-text">2022.5.3 V1.0.0</view>
+
+        <view class="weui-media-box__desc">
+          添加数据库小商城，加入积分机制</view>
+
+      </view>
+
+    </view>
+
+
+
+  </view>
+</view>
+
+<view class="weui-footer ft">
+  <view class="weui-footer__links">
+
+
+
+
+  </view>
+  <view class="weui-footer__links">
+
+    <navigator url="" class="weui-footer__link">一枝小橙</navigator>
+
+    <navigator url="" class="weui-footer__link">一枝小楠</navigator>
+
+  </view>
+  <button style="width: 600rpx;" open-type="contact">
+    <view class="weui-footer__text">联系小橙 | Developed by CZH.</view>
+  </button>
+
+</view>

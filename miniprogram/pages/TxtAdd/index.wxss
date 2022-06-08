@@ -1,0 +1,76 @@
+.container{
+  position: relative;
+  margin-top: 20rpx;
+}
+.fg{
+  opacity: 0.8;
+}
+.form-cell_title {
+  margin-bottom: 10px;
+  font-size: medium;
+}
+.cl{
+  display: flex;
+  height: 30rpx;
+}
+.form-cell_title-placeholder {
+  font-size: small;
+  color: lightgray;
+}
+
+.form-cell_input {
+  font-size: small;
+  color: black;
+}
+
+.form-cell_inputdd {
+  position: relative;
+  right: -190rpx;
+  top: 5rpx;
+  font-size: 30rpx;
+  color: black;
+}
+.footer {
+  width: 80%;
+  height: 70rpx;
+  position: fixed;
+  bottom:90rpx;
+  display: flex;
+  /* border-top: lightgray solid 1px; */
+  
+}
+
+.footer view {
+  width: 50%;
+  height: 100%;
+  padding-top: 1vh;
+  text-align: center;
+  font-size: 35rpx;
+}
+
+.reset {
+  background: white;
+  border-top-left-radius:  50rpx;
+  border-bottom-left-radius:  50rpx;
+}
+
+.save {
+  color: white;
+  background: #F0B4EA;
+  border-top-right-radius:  50rpx;
+  border-bottom-right-radius:  50rpx;
+}
+
+.picx{
+  margin-left: 40rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.bigpic{
+  height: 600rpx;
+  width: 800rpx;
+  position:fixed;
+  z-index: -1;
+  top: -260rpx;
+  left: -200rpx;
+}

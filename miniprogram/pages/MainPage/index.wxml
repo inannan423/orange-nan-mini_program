@@ -1,0 +1,49 @@
+<!-- <view bindtap="closeit" class="mask" wx:if="{{display}}">
+  <image class="inner" src="cloud://nannan-1g1q4u2i02398ecf.6e61-nannan-1g1q4u2i02398ecf-1311679880/GF.gif"></image>
+  <image bindtap="closeit" class="cls" src="../../images/close.png"></image>
+</view> -->
+<view style="width:100%; background: none;">
+
+  <image style="position: relative; height: 500rpx; width: 100%; top: -15rpx;" mode="widthFix" src="../../images/Home/a.jpg" />
+
+  <view class='body'>
+    <!--倒计时-->
+    <text class='time1'>在一起已经</text>
+    <text class='text1'>{{qgdjs_jo.day}}</text>
+    <text class='time1'>天</text>
+    <text class='text1'>{{qgdjs_jo.hour}}</text>
+    <text class='time1'>时</text>
+    <text class='text1'>{{qgdjs_jo.min}}</text>
+    <text class='time1'>分</text>
+    <text class='text1'>{{qgdjs_jo.sec}}</text>
+    <text class='time1'>秒</text>
+  </view>
+  <!-- 生日快乐入口,开启前请修改相关页面 -->
+  <!-- <view class="cell1" bindtap="gotobr">
+      <view class="slide">
+        <view class="info_title">宝贝生日快乐！</view>
+      </view>
+    </view> -->
+    <view class="cell">
+      <view class="slide">
+        <view class="info_title">欢迎！橙子先生和婻婻小姐！</view>
+      </view>
+    </view>
+    <view class="cell1" bindtap="gototxt">
+      <view class="slide">
+        <view class="info_title">爱情记事本</view>
+      </view>
+      <image class="minipic" src="../../images/list/ttx.png"></image>
+    </view>
+    <view class="cell1" bindtap="gotokt">
+      <view class="slide">
+        <view class="info_title">夏日空调</view>
+      </view>
+      <image class="minipic1" src="../../images/icons/kt.png"></image>
+    </view>
+    
+    <!-- <button bindtap = "upload">上传文件</button>
+
+    <image class="vp" src = "{{imgURL}}"></image> -->
+
+</view>

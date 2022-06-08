@@ -1,0 +1,19 @@
+
+<image class="bigpic" src="../../images/list/aa.png" />
+<view class="return" bindtap="goback" style="height: {{ barHeight }} px;width:{{ barHeight }} px; margin-top:{{barTop+6}}px">
+<image class="picx" src="../../images/list/back.png"/>
+</view>
+<view class="container">
+  <view class="form-group cell">
+    <view class="form-cell ">
+      <view class="form-cell_title">{{todo.title}}</view>
+      
+      <view class="divLine"></view>
+      <view class="form-cell_head">{{todo.head}}</view>
+      <view class="form-cell_desc">{{todo.desc}}</view>
+      <view wx:if="{{todo.img}}" class="divLine"></view>
+      <image wx:if="{{todo.img}}" style="border-radius:30rpx" data-src="{{todo.img}}" bindtap="previewImage" src="{{todo.img}}" mode="aspectFill"></image>
+    
+    </view>
+  </view>
+</view>

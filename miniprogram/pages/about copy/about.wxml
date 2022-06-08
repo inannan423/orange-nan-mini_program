@@ -1,0 +1,48 @@
+<!--pages/about/about.wxml-->
+
+    <image class="bigpic" src="../../images/list/aa.png" />
+<!-- <view class="return" bindtap="goback" style="height: {{ barHeight }} px;width:{{ barHeight }} px; margin-top:{{barTop+6}}px">
+<image class="picx" src="../../images/list/back.png"/>
+</view> -->
+
+<view class="page__bd">
+
+
+  <view class="weui-panel weui-panel_access bd">
+
+    <view class="weui-panel__hd">更新日志</view>
+    
+
+    <view class="weui-panel__bd">
+
+      <view class="weui-media-box weui-media-box_text">
+
+        <view class="weui-media-box__title weui-media-box__title_in-text">2022.5.3 V1.0</view>
+
+        <view class="weui-media-box__desc">
+        添加数据库小商城，加入积分机制</view>
+
+      </view>
+
+    </view>
+
+    
+
+  </view>
+</view>
+
+<view class="weui-footer ft">
+
+<view class="weui-footer__links">
+
+  <navigator url="" class="weui-footer__link">橙子先生</navigator>
+
+  <navigator url="" class="weui-footer__link">一枝小婻</navigator>
+
+</view>
+
+<view class="weui-footer__text">Developed by CZH.</view>
+
+</view>
+
+

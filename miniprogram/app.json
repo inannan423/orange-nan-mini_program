@@ -1,0 +1,58 @@
+{
+    "pages": [
+
+        "pages/MainPage/index",
+        "birthday/birthday",
+        "pages/kongtiao/kongtiao",
+        "pages/Txt/index",
+        "pages/TxtDetail/index",
+        "pages/TxtAdd/index",
+        "pages/Mission/index",
+        "pages/MissionAdd/index",
+        "pages/MissionDetail/index",
+        "pages/Market/index",
+        "pages/MarketAdd/index",
+        "pages/MarketDetail/index",
+        "pages/Account/index",
+        "pages/about/about",
+        "pages/about copy/about"
+
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ff99aa",
+        "navigationBarTitleText": "橙子屋与南瓜灯",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "tabBar": {
+        "color": "#1a1a1a",
+        "selectedColor": "#ff99aa",
+        "list": [{
+                "pagePath": "pages/MainPage/index",
+                "selectedIconPath": "images/TabBar/HomeIconColor.jpg",
+                "iconPath": "images/TabBar/HomeIconGrey.jpg"
+            },
+            {
+                "pagePath": "pages/Mission/index",
+                "selectedIconPath": "images/TabBar/MissionIconColor.jpg",
+                "iconPath": "images/TabBar/MissionIconGrey.jpg"
+            },
+            {
+                "pagePath": "pages/Market/index",
+                "selectedIconPath": "images/TabBar/MarketIconColor.jpg",
+                "iconPath": "images/TabBar/MarketIconGrey.jpg"
+            },
+            {
+                "pagePath": "pages/Account/index",
+                "selectedIconPath": "images/TabBar/AccountIconColor.jpg",
+                "iconPath": "images/TabBar/AccountIconGrey.jpg"
+            }
+        ]
+    },
+    "lazyCodeLoading": "requiredComponents",
+    "cloud": true,
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

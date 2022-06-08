@@ -1,0 +1,38 @@
+page{
+    background-color: pink;
+    color: #000000;
+  }
+  .bk{
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: -1;
+
+  }
+  
+.picx{
+    margin-left: 40rpx;
+    height: 80rpx;
+    width: 80rpx;
+  }
+  .ea{
+    position: fixed;
+    right: 20rpx;
+    top:71vh;
+    width:110rpx;
+    height:90rpx;
+  }
+  
+  .eaa{
+    position: fixed;
+    left: 20rpx;
+    top:70vh;
+    width:170rpx;
+    height:90rpx;
+  }
+  .padding{
+      margin-top: 0rpx;
+  }
+  .hehe{
+    margin-top: 170rpx;
+  }

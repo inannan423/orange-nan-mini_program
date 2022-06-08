@@ -1,0 +1,5 @@
+<view class="return" bindtap="goback" style="height: {{ barHeight }} px;width:{{ barHeight }} px; margin-top:{{barTop+6}}px">
+<image class="picx" src="../images/list/back.png"/>
+</view>
+<!-- <audio autoplay="true" src="cloud://nannan-1g1q4u2i02398ecf.6e61-nannan-1g1q4u2i02398ecf-1311679880/btd.wav"></audio> -->
+<image class="pxs" src="cloud://nannan-1g1q4u2i02398ecf.6e61-nannan-1g1q4u2i02398ecf-1311679880/a.gif"></image>
