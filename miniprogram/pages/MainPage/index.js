@@ -1,7 +1,7 @@
 Page({
     data: {
 
-        jssj: "2021-04-02 21:15:00", //设置结束时间
+        jssj: "2021-04-02 21:15:00", //设置开始时间
 
         timer: "", //倒计时定时器名称
 
@@ -93,6 +93,7 @@ Page({
         that.countDown();
         var app = getApp();
         const db = await getApp().database();
+        /*
         getApp().getOpenId().then(async openid => {
           if(openid!=app.globalData.kirbyOpenId&&openid!=app.globalData.deeOpenId){
             wx.showModal({
@@ -112,6 +113,7 @@ Page({
             })
           }
         })
+        */
     },
     //上传文件
     upload() {

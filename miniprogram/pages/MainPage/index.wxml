@@ -35,13 +35,13 @@
       </view>
       <image class="minipic" src="../../images/list/ttx.png"></image>
     </view>
-    <view class="cell1" bindtap="gotokt">
+    <!-- <view class="cell1" bindtap="gotokt">
       <view class="slide">
         <view class="info_title">夏日空调</view>
       </view>
       <image class="minipic1" src="../../images/icons/kt.png"></image>
     </view>
-    
+     -->
     <!-- <button bindtap = "upload">上传文件</button>
 
     <image class="vp" src = "{{imgURL}}"></image> -->

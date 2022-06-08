@@ -4,9 +4,9 @@ App({
 
     this.globalData = {
       // Record all the users openId
-      kirbyOpenId: 'ofHWU5etrPe4s6F4csrhOAT7S0S0',
+      kirbyOpenId: '填写女朋友的AppID',
       //女朋友的AppID
-      deeOpenId: 'ofHWU5flB6bBXyp8umqEtQQJNL2A',
+      deeOpenId: '填写你的ID',
       // 开发者(男方)的AppID
       // 用于存储待办记录的集合名称
       collectionMissionList: 'MissionList',

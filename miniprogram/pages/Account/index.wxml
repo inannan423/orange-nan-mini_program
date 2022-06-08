@@ -3,13 +3,13 @@
   <image style="position: relative; height: 100%; width: 100%; top: 0;" mode="widthFix" src="../../images/Credit/CreditCover.jpg"/>
     <view class="cell">
       <view class="slide">
-        <view class="info_title">婻婻的积分：</view>
+        <view class="info_title">♀的积分：</view>
         <view class="info_subtitle">{{kirbyCredit}}</view>
       </view>
     </view>
     <view class="cell">
       <view class="slide">
-        <view class="info_title">橙子的积分：</view>
+        <view class="info_title">♂的积分：</view>
         <view class="info_subtitle">{{deeCredit}}</view>
       </view>
     </view>
